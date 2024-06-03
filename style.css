@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Alegreya", serif;
+}
+
+.nav-bar-container {
+  background-color: transparent;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  height: 60px;
+}
+
+.nav-bar {
+  width: 90%;
+  margin: auto;
+}
+.nav-img {
+  width: 20%;
+  float: left;
+}
+.nav-img img {
+  width: 100%;
+}
+
+.nav-links {
+  width: 50%;
+  float: right;
+}
+.nav-links li {
+  float: left;
+  width: 15%;
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+.nav-links a {
+  font-size: 130%;
+  color: #e0dcd2;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 500%;
+}
+.header {
+  color: white;
+  height: 100vh;
+  background-image: url("images/drew-coffman-1872.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding-top: 120px;
+}
+.header p {
+  font-size: 140%;
+  padding: 30px;
+}
+.header-content {
+  width: 50%;
+  margin: 80px auto;
+  text-align: center;
+}
+.btn {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 105%;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.btn1 {
+  background-color: #8e7754;
+  color: white;
+}
+.btn2 {
+  background-color: transparent;
+  color: white;
+  border: white 2px solid;
+}
+
+.intro {
+  margin-top: 40px;
+  padding: 40px;
+}
+
+.intro-img {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+.intro-img img {
+  width: 70%;
+}
+.intro-content {
+  width: 50%;
+  float: left;
+  padding-top: 40px;
+}
+.intro-content h2 {
+  font-size: 250%;
+  margin-bottom: 30px;
+}
+.intro-content p {
+  font-size: 130%;
+  margin-bottom: 30px;
+}
+.intro-content img,
+.contact-content img,
+.footer-icons img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.intro-content ul li,
+.contact-content ul li {
+  padding: 10px 0;
+  font-size: 110%;
+  list-style: none;
+}
+.intro-content span {
+  margin-left: 10px;
+}
+.clear-fix {
+  clear: both;
+}
+
+.location {
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+
+.location-img {
+  width: 40%;
+  float: right;
+}
+.location-img img {
+  width: 70%;
+}
+.location-content {
+  float: right;
+  width: 60%;
+  text-align: left;
+  margin-top: 20px;
+}
+.parag1,
+.parag2 {
+  margin-top: 25px;
+  width: 60%;
+}
+.location p {
+  font-size: 120%;
+}
+.location h2,
+.location p {
+  margin-left: 25%;
+}
+
+.baking {
+  margin-top: 40px;
+}
+.baking-header {
+  text-align: center;
+}
+
+.baking-meals {
+  margin-top: 30px;
+}
+
+.meal {
+  width: 33%;
+  float: left;
+}
+.meal-img {
+  width: 80%;
+  margin: auto;
+}
+.meal-img img {
+  width: 100%;
+}
+.meal-content {
+  text-align: center;
+  padding: 35px;
+}
+
+.contact-container {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.contact {
+  width: 80%;
+  margin: 30px auto;
+  background-color: #f8f8f8;
+}
+.contact h2,
+.contact p {
+  margin-bottom: 20px;
+}
+.contact-content {
+  width: 60%;
+  float: left;
+}
+.contact-map {
+  width: 40%;
+  float: right;
+}
+
+.about-container {
+  background-color: #403d38;
+  padding: 30px;
+}
+.about {
+  width: 80%;
+  margin: auto;
+}
+
+.part {
+  float: left;
+  width: 24%;
+}
+.part h3 {
+  color: #fff;
+}
+.part li {
+  color: #969696;
+  list-style: none;
+}
+
+.side-bar {
+  width: 30px;
+  height: 100px;
+  background-color: #d2d2d2;
+  position: fixed;
+  right: -1px;
+  top: 200px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.side-bar-icon {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 50%;
+  background-color: #666;
+}
+
+.footer-container {
+  background-color: #1b1b1b;
+  color: #797979;
+  text-align: center;
+  padding: 50px;
+}
+
+.footer {
+  width: 80%;
+  margin: auto;
+}
+.footer p {
+  margin: 30px 0;
+}
+.footer-img {
+  width: 30%;
+  margin: auto;
+}
+.footer-img img {
+  width: 100%;
+}
+.footer-icons {
+  width: 15%;
+  margin: 30px auto 0;
+}
+.footer-icon {
+  float: left;
+  width: 25%;
+}
