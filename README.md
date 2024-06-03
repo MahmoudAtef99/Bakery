@@ -1,2 +1,2 @@
 # Bakery
-###Bakery sample website design using HTML &amp; CSS
+### Bakery sample website design using HTML &amp; CSS
